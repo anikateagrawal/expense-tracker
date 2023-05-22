@@ -3,7 +3,7 @@ import { GlobalContext } from '../context/GlobalState'
 import Transaction from './Transaction';
 
 const TransactionList = (props) => {
-  const {transactions ,deleteTransaction} =useContext(GlobalContext);
+  const {transactions } =useContext(GlobalContext);
   return (
     <div>
         <h3>History</h3>
